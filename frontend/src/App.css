@@ -1,4 +1,4 @@
-/* General Layout */
+
 body {
   background-color: #0f172a;
   color: #e2e8f0;
@@ -18,7 +18,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* Cards Section */
+
 .cards {
   display: flex;
   justify-content: center;
@@ -55,7 +55,7 @@ h1 {
   color: #f8fafc;
 }
 
-/* Chart Section */
+
 .chart-container {
   margin-top: 50px;
   background: #1e293b;
@@ -71,7 +71,7 @@ h1 {
   font-weight: 500;
 }
 
-/* Fix for axis, tooltip, and legend text color */
+
 .recharts-cartesian-axis-tick-value {
   fill: #e2e8f0 !important;
   font-size: 0.9rem;
@@ -88,7 +88,7 @@ h1 {
   background-color: #1e293b !important;
 }
 
-/* Responsive for smaller screens */
+
 @media (max-width: 768px) {
   .cards {
     flex-direction: column;

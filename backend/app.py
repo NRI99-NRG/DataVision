@@ -4,10 +4,10 @@ import pandas as pd
 
 app = FastAPI()
 
-# Allow frontend (React) to access API
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # later replace with "http://localhost:5173"
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -15,7 +15,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message": "🚀 DataVision API is running!"}
+    return {"message": " DataVision API is running!"}
 
 @app.get("/summary")
 def get_summary():
